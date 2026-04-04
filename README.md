@@ -15,3 +15,9 @@ A part of learning C and C++, separated from project "LearnCoding" of mine
 - *UCRT64*(*gcc*/*g*++/*gdb*)
 
 如你所见，精简了部分内容
+
+#### 免责声明
+
+[donut 文件夹](src/donut/Disclaimer.md)
+
+[Sales 文件夹](src/Sales/Disclaimer.md)
