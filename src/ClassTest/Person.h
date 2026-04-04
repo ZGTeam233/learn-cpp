@@ -1,21 +1,23 @@
-#ifndef PEASON_H
-#define PEASON_H
+#ifndef PERSON_H
+#define PERSON_H
 
 #include <iostream>
 #include <string>
 
 class Person {
 public:
-    void eat() {
+    Person() = default;
+    Person(int a, std::string n) : age(a), name(n) {}
+    void eat() const {
         std::cout << name << " is eating. He is " << age << " years old.\n" << std::endl;
     }
-    int getAge() { return age; }
-    std::string getName() { return name; }
+    int getAge() const { return age; }
+    std::string getName() const { return name; }
     void setAge(int a) { age = a; }
     void setName(std::string n) { name = n; }
 private:
-    int age;
+    int age = 0;
     std::string name;
 };
 
-#endif // PEASON_H
+#endif // PERSON_H
