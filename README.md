@@ -1,5 +1,5 @@
 # learn-cpp
-A part of learning C and C++, separated from project "LearnCoding" of mine
+学习 C/C++ 开发，源于项目“LearnCoding”
 
 #### 介绍
 如你所见，这个项目从[LearnCoding](https://github.com/ZGTeam233/LearnCoding)中独立出来
